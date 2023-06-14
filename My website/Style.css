@@ -3,6 +3,7 @@
     padding: 0; 
     box-sizing: border-box;
     font-family: "Lucida Sans"
+
 }
 
 nav {
@@ -20,7 +21,8 @@ ul {
     justify-content: space-between;
 }
 
-main  {
+main,
+footer {
     width: 1200px;
     margin:auto;
     text-align: center;

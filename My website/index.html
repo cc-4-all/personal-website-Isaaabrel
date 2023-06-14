@@ -8,24 +8,24 @@
     <body>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <a href="#About me"><li>About</li></a>
+                <a href="#Home"><li>Home</li></a>
                 <li>
                     <a href="# My Hyperfixation">Hyperfixations </a> </li>
                 <li><a href="isabelrosemcgowan08@gmail.com">✉ isabelrosemcgowan08@gmail.com</a>   </li>
             </ul>
         </nav>
         <main>
-            <img src="" />
+            <div id="top"></div>
             <h1>Hello! Im Isabel</h1>
             <hr />
 
-            <div>
+            <div class="profile-item">
                 <h1>About me</h1>
                 <h4>Hi, I'm Isabel. I'm 14 years old. I have two sisters, two brothers and four dogs.</h4>
                 </div>
 
-                <div>
+                <div id="interests" class="profile-item">
                     <h1>My interests:</h1>
                 
                 <h2>My family </h2>
@@ -36,9 +36,17 @@
                 <h1>My school</h1>
                     <h4>I go to Temple Carrig in Greystones. In September Im going to be in third year. </h4>
             </div>
+
+            <div id="gallery">
+                <button id="prev">◀</button>
+                <img src="Images/Kitten.jpg" id="gallery-img" />
+                <button id="next">▶</button>
+            </div>
+
         </main>
         <footer>
             <a href="#top">Back to top</a>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
