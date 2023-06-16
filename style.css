@@ -1,29 +1,29 @@
 * {
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
-    font-family: "Lucida Sans"
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans";
 }
 
 nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between; 
-    padding: s5px;
-    background: lightgoldenrodyellow;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: s5px;
+  background: lightgoldenrodyellow;
 }
 
 ul {
-    display: flex;
-    list-syle: none;
-    width: 25%;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
 }
 
 main,
 footer {
-    width: 1200px;
-    margin:auto;
-    text-align: center;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
 }
